@@ -1,0 +1,35 @@
+{
+  "name": "bot-discord",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/Bot.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/Bot.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mmasson-01/bot-discord.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mmasson-01/bot-discord/issues"
+  },
+  "homepage": "https://github.com/Mmasson-01/bot-discord#readme",
+  "dependencies": {
+    "discord.js": "^13.7.0",
+    "dotenv": "^16.0.1",
+    "module-alias": "^2.2.2",
+    "prettier": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.36",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.7.2"
+  },
+  "_moduleAliases": {
+    "@src": "dist/src"
+  }
+}
